@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LISTAS</title>
+    <style>
+        ol.a {
+            list-style-type: lower-greek;
+       }
+       ol.b {
+            list-style-type: upper-roman;
+       }
+
+       ul.b {
+            list-style-type: circle;
+       }
+       ul.c {
+            list-style-type: square;
+       }
+
+       ol.fases {
+            list-style-type: upper-roman;
+       }
+       ul.vias {
+            list-style: circle;
+       }
+
+      
+    </style>
+</head>
+<body>
+    <h1>Listas</h1>
+    <h2>Listas ordenadas (&lt;ol&gt;)</h2>
+    <p>Vamos aqui primeiro do jeito clássico, isto é, inserido uma por uma. Lembrando que para listar, usar a tag &lt;li&gt</p>
+    <p>Parece que podemos usar style dentro da tag, ou usar CSS na head com style - ol { list-style-type: lowe/upper-greek-latin-alpha;}. <strong>W3 referencia essa última.</strong></p>
+    <ol class="a">
+        <p>Coisas que fazer</p>
+        <li>Acordar</li>
+        <li>Abrir o olho</li>
+        <li>Falar ahhhh</li>
+        <li>Pegar o celular</li>
+        <li>ahh</li>
+        <li>uui</li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ol>
+
+    <p>Para já fazer um número pré determinado, digitar ol&gt;li*5. Lmbrando que não é obrigatório o fechamento no &lt;li&gt;, mas no ol sim.</p>
+    <ol class="b">
+        <li>ah</li>
+        <li>ta</li>
+        <li>sla</li>
+        <li>sla</li>
+        <li>sla</li>
+        <li>sla</li>
+        <li>nehhh</li>
+        <li></li>
+    </ol>    
+<p>Parece que dentro da tag no body, se pode colocar <code>class="a"</code>, b ou outra, para no CSS, qunado quiser especificar, digitar apenas <code>ol.a</code>, e não modificar todas. Interessante. </p>
+
+<h2>Listas sem ordem (&lt;ul&gt;)</h2>
+    <h3>Listas disc (Padrão)</h3>
+    <ul class="a">
+        <li>Arroz</li>
+        <li>Feijão</li>
+        <li>Salada</li>
+        <li>Macarrão</li>
+        <li>Bife</li>
+    </ul>
+    <h3>Listas circle </h3>
+    <ul class="b">
+        <li>Arroz</li>
+        <li>Feijão</li>
+        <li>Salada</li>
+        <li>Macarrão</li>
+        <li>Bife</li>
+    </ul>
+    <h3>Listas square </h3>
+    <ul class="c">
+        <li>Arroz</li>
+        <li>Feijão</li>
+        <li>Salada</li>
+        <li>Macarrão</li>
+        <li>Bife</li>
+    </ul>
+
+<p>Tmbm se pode usar o none q ta de boaçaa</p>
+
+<h2>Lista dentro da lista</h2>
+<h3>Fases da vida interior</h3>
+
+<ol class="fases">
+    <li>Fase Ascética</li>
+    <ul class="vias">
+        <li>Via Purgativa</li>
+        <ol class="moradas">
+            <li>Primeira Morada</li>
+            <li>Segunda Morada</li>
+            <li>Terceira Morada</li>
+        </ol>
+    </ul>
+
+    <li>Fase Mística</li>
+    <ul class="vias">
+        <li>Via Iluminativa</li>
+        <ol class="moradas" start="4">
+            <li>Quarta Morada</li>
+            <li>Quinta Morada</li>
+        </ol>
+        <li>Via Unitiva</li>
+        <ol class="moradas" start="6">
+            <li>Sexta Morada</li>
+            <li>Sétima Morada</li>
+        </ol>
+    </ul>
+
+</ol>
+<p><sub><a href="file:///C:/Users/User/Desktop/DEV/html-css/exerc%C3%ADcios/INDEX/index.html" target="_blank">Ir para o Índice.</a></sub></p>
+</body>
+</html>

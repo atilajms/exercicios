@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #a4a3a2;
+            width: 1000px;
+            scroll-behavior: smooth;
+            margin: auto;
+
+        }
+        header > h1{
+            padding: 10px;
+            background-color: lightgrey;
+            margin: 10px;
+            border-radius: 10px;
+            text-align: center;
+            border: 3px solid rgb(255, 255, 255);
+        }
+        nav{
+            background-color: #ffffff;
+            padding: 2px;
+            border-radius: 3px;
+            border: 2px solid black;
+
+        }
+        nav > a{
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            font-weight: bold;
+            margin-left: 30px;
+            display: inline-block;
+        }
+        nav > a:hover{
+            background-color: #a4a3a2;
+            padding: 1px;
+            color: #ffffff;
+            text-transform: uppercase;
+        }
+        main{
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+        }
+        span#linhavertical{
+            display: inline-block;
+            height: 300px;
+            border-right: 2px solid rgba(103, 103, 103, 0.467);
+            position: absolute;
+            margin-top: -392px;
+            margin-left: 479px;
+        }
+        .sectopo{
+            display: block;
+            width: 470px;
+            
+        }
+        .secmiddle{
+            display: block;
+            float: right;
+            width: 470px;
+            position: relative;
+            margin-top: -437px;
+            
+        }
+        p{
+            text-indent: 30px;
+            text-align: justify;
+        }
+        article{
+            background-color: lightcoral;
+            padding: 5px;
+        }
+        article > aside{
+            background-color: rgba(239, 166, 166, 0.672);
+            margin: 10px;
+            padding: 1px;
+            border-radius: 7px;
+            width: 350px;
+        }
+        aside > p{
+            margin-left: 30px;
+            
+        }
+        footer{
+            background-color: lightgray;
+            color: rgb(4, 4, 4);
+            padding: 1px;
+            text-align: center;
+            font-weight: bold;
+            border-radius: 7px;
+            border: 3px solid rgb(255, 255, 255);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="topo">Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <p>Esportes Política Tecnologia</p>
+        </section>
+        <section class="sectopo">
+            <article>
+                <h2>Notícias sobre Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero recusandae adipisci minus tenetur, velit labore placeat quidem provident sed dolores facilis nihil, similique, numquam cupiditate praesentium alias atque. Quaerat, hic iste. Sed sapiente non consequuntur quo ea perspiciatis, laudantium consequatur neque! Qui recusandae vero, nihil tempora, ex soluta debitis nam, beatae dolorem iste unde nulla! Dolore earum blanditiis possimus nulla rem quasi repudiandae dolorem maiores, laudantium reprehenderit, animi, ex deserunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quidem aliquam ipsam molestias nihil quasi harum ratione amet obcaecati earum. Eaque iusto assumenda possimus in eos minus praesentium laborum dolores! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus, eligendi ipsam. Repudiandae veritatis rem, nul</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+                
+            </article>
+        </section>
+        
+        <section class="secmiddle">
+            <article>
+                <h2>Notícias do Mundo</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore perspiciatis voluptatem reprehenderit fugiat harum nam eius cumque voluptas laudantium alias facilis ratione possimus tempore assumenda quibusdam explicabo qui, magnam error incidunt ullam odio temporibus sequi? Saepe repellat, sit quae dignissimos quod voluptas, nam eveniet cum dolor, beatae dolore perferendis dolorum explicabo incidunt dolorem. Esse quisquam maxime ipsam voluptate ratione dolor mollitia, omnis dolores dicta, debitis optio qui! Iure, repellendus cumque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio sed eius corporis doloremque sequi ratione vel. Nostrum, officiis omnis.</p>
+                <aside>
+                    <p>Artigo escrito por Rodrigo Costa</p>
+                </aside>
+            </article>
+        </section>
+        <span id="linhavertical"></span>
+    </main>
+    <footer>
+        <p>Desenvolvido por Rodrigo</p>
+    </footer>
+</body>
+</html>

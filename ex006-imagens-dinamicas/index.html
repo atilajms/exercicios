@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamanhos e tamanhos</title>
+</head>
+<body>
+    <h1>Imagens em diferentes meios</h1>
+    <hr>
+    <p><sub><a href="https://www.youtube.com/watch?v=E01LDVj0Rpg&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n&index=31&ab_channel=CursoemV%C3%ADdeo" target="_blank" rel="external">Vídeo de referência</a></sub></p>
+    <h2>Começos no GIMP</h2>
+    <p>As imagens devem se adaptar  de acordo com o meio onde são alocadas, seja um computador, seja um celular, seja qualquer outra coisa. Vejamos o passo a passo.</p>
+    <p>1. GIMP. Para celular: Arquivo - Nova - Opcções avançadas - 300 x 300 - Resulução 80.</p>
+    <p>Outro arquivo, 700 x 700, e outro 1000 x 1000.</p>
+    <p>Clicar em cor, selecionar preto, clicar na letrinha e pôr qualquer coisa. <br><em>na hora de mover a letra P, bem no início do vídeo. Descobri que é necessário trocar o modo da ferramenta de seleção (setinha) com a tecla Shift!</em></p>
+    <p>Arrastar tabela por fora, nos dois eixos, em 150 e 150, e depois arrastar a letra para o meio. Gera uma espécie de ponto que facilita a centralização do objeto em questão.</p>
+    <p>No canto esquerdo em cima, tem uma ferramenta que parecem duas retas cruzadas. Com ela é possível mover objetos: mova-se o arquivo para as outras imagens.
+    <br><em>Dica para Alinhar mais facilmente no GIMP. Existe a Ferramenta de Alinhamento (tecla de atalho: Q). Ao acionar essa ferramenta, clique sobre o item que deseja alinhar e depois escolha os alinhamentos disponíveis. Existem opções de alinhamento horizontal e vertical.</em>
+    </p>
+    <p>Mudar as letras, clicar e arrastar, lá pelo minuto 9:50 do vídeo.</p>
+    <p>PINTAR: camada de fundo, baldinho, preto</p>
+    <p>Exportar img por img</p>
+    <h2>No VS Code</h2>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/letra-pequena.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/letra-media.png" type="image/png">
+        <img src="imagens/letra-grande.png" alt="">
+    </picture>
+
+    <p>tag <code>picture</code>, dntro da qual começar emabixo por tag <code>img</code>, onde se coloca a fonte ou spurce do arquivi maior. Logo em cima, tag <code>source:media:type</code>, mudar para <code>max-width</code>, colocar o tamanho máximo (50 px maior que o da imagem), colocar a fonte da imagem média, e por o <code>type</code> da imagem (se for <code>png</code>, basta adicionar <code>png</code> após <code>image/</code>). Depois, em cima, a imagem menor. </p>
+    <p>Tentando por outras imgs</p>
+    <picture>
+        <source media="(max-width: 430px)" srcset="imagens/fotos-eu/eu-300.jpg" type="image/jpg">
+        <source media="(max-width: 650px)" srcset="imagens/fotos-eu/eu-400.jpg" type="image/jpg">
+        <source media="(max-width: 760px)" srcset="imagens/fotos-eu/eu-600.jpg" type="image/jpg">
+        <source media="(max-width: 830px)" srcset="imagens/fotos-eu/eu-700.jpg" type="image/jpg">
+        <img src="imagens/fotos-eu/eu-800.jpg" alt="imagem de eu">
+    </picture>
+    <p>
+        5400
+        martes 03 16:30 enrica
+        11 3136 7172
+
+
+    </p>
+</html>

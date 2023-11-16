@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+body{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: blanchedalmond;
+}
+p{
+    color: goldenrod;
+}
+a{
+    color: chartreuse;
+}
+h2{
+    font-size:xx-small;
+}
